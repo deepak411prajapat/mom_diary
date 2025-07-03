@@ -3,7 +3,7 @@ require("./db/config");
 const DataItem = require('./db/data_item');
 const app = express();
 const bcrypt=require('bcryptjs');
-const nodemailer = require('nodemailer');
+//const nodemailer = require('nodemailer');
 const { v4 : uuidv4 } = require('uuid');
 
 const cors = require('cors');
