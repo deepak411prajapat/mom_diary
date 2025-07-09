@@ -32,4 +32,21 @@ Mom's Diary is a real-world web application designed to help users manage their 
 ---
 
 ## 📂 Folder Structure
+  mom-diary/
+│
+├── client/ # React Frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.js
+│ └── tailwind.config.js
+│
+├── server/ # Node Backend
+│ ├── routes/
+│ ├── controllers/
+│ ├── models/
+│ └── server.js
+│
+├── README.md
+└── .env
 
